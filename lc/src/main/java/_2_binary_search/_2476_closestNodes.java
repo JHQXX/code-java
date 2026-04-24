@@ -2,9 +2,8 @@ package _2_binary_search;
 
 
 import _0_data_structures.TreeNode;
-import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.extern.slf4j.Slf4j;
+import tools.jackson.databind.ObjectMapper;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -18,7 +17,7 @@ import java.util.List;
 @Slf4j
 public class _2476_closestNodes {
 
-    public static void main(String[] args) throws JsonProcessingException {
+    public static void main(String[] args) {
         Integer[] data = {6, 2, 13, 1, 4, 9, 15, null, null, null, null, null, null, 14};
         Integer[] queries  = {2,5,16};
         TreeNode treeNode = TreeNode.constructTree(data);
