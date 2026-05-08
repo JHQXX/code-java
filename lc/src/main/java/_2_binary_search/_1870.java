@@ -2,7 +2,7 @@ package _2_binary_search;
 
 /**
  * @Author: Lee
- * @Description: TODO
+ * @Description: 二分答案-最小值
  * @DateTime: 2026/5/7 上午10:13
  **/
 public class _1870 {

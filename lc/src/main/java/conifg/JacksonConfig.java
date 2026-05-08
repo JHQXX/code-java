@@ -3,7 +3,7 @@ package conifg;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Primary;
 
-import org.springframework.http.converter.json.Jackson2ObjectMapperBuilder;
+
 import tools.jackson.databind.DeserializationFeature;
 import tools.jackson.databind.ObjectMapper;
 import tools.jackson.databind.SerializationFeature;
